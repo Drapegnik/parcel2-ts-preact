@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "start": "yarn clean && parcel index.html --open",
+    "start": "yarn clean && parcel index.html --open --no-cache",
     "build": "parcel build index.html",
     "clean": "rm -rf .parcel-cache"
   },
   "author": "Ivan Pazhitnykh <ivan.pazhitnykh@gmail.com> (https://github.com/Drapegnik)",
   "license": "MIT",
   "devDependencies": {
-    "@babel/plugin-transform-react-jsx": "^7.3.0",
-    "parcel": "^2.0.0-alpha.1.1"
+    "@parcel/transformer-typescript-tsc": "^2.0.0-alpha.1.1",
+    "parcel": "^2.0.0-alpha.1.1",
+    "typescript": "^3.5.3"
   },
   "dependencies": {
     "preact": "^8.5.1"

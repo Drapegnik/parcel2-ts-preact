@@ -538,7 +538,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-react-jsx@^7.0.0", "@babel/plugin-transform-react-jsx@^7.3.0":
+"@babel/plugin-transform-react-jsx@^7.0.0":
   version "7.3.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx/-/plugin-transform-react-jsx-7.3.0.tgz#f2cab99026631c767e2745a5368b331cfe8f5290"
   integrity sha512-a/+aRb7R06WcKvQLOu4/TpjKOdvVEKRLWFpKcNuHhiREPgGRB4TQJxq07+EZLS8LFVYpfq1a5lDUnuMdcCpBKg==
@@ -1135,6 +1135,14 @@
     "@parcel/local-require" "^2.0.0-alpha.1.1"
     "@parcel/plugin" "^2.0.0-alpha.1.1"
     "@parcel/utils" "^2.0.0-alpha.1.1"
+
+"@parcel/transformer-typescript-tsc@^2.0.0-alpha.1.1":
+  version "2.0.0-alpha.1.1"
+  resolved "https://registry.yarnpkg.com/@parcel/transformer-typescript-tsc/-/transformer-typescript-tsc-2.0.0-alpha.1.1.tgz#0866bbb58a30556e68ef6db7f57364f33f809009"
+  integrity sha512-AlV7Q0wTEeuInBiGj2/bxefJXiCqVJIMNu7vHEhtKqNJPkCiMcw349qkPTkHqGmtBXYrfAu6Z+5KJda/fjvqcw==
+  dependencies:
+    "@parcel/local-require" "^2.0.0-alpha.1.1"
+    "@parcel/plugin" "^2.0.0-alpha.1.1"
 
 "@parcel/types@^2.0.0-alpha.1.1":
   version "2.0.0-alpha.1.1"
@@ -5079,6 +5087,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typescript@^3.5.3:
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.3.tgz#c830f657f93f1ea846819e929092f5fe5983e977"
+  integrity sha512-ACzBtm/PhXBDId6a6sDJfroT2pOWt/oOnk4/dElG5G33ZL776N3Y6/6bKZJBFpd+b05F3Ct9qDjMeJmRWtE2/g==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"

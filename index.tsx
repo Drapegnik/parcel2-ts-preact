@@ -2,7 +2,7 @@ import { h, render } from "preact";
 
 const App = () => (
   <div>
-    <h1>Hello World from Preact! 📦 🚀</h1>
+    <h1>Hello World from Preact+TS! 📦 🚀</h1>
   </div>
 );
 
